@@ -40,7 +40,7 @@ const News = (props) => {
 
   return (
     <>
-      <h3 className="text-center style={{margin-top:'4rem'}}">NewsMonkey- {props.categoryType} Top Headlines</h3>
+      <h3 className="text-center topHeadlines">NewsMonkey- {props.categoryType} Top Headlines</h3>
       <InfiniteScroll
         dataLength={articles.length}
         next={fetchMoreData}
